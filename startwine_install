@@ -22,8 +22,6 @@ fi
 [ -n "$(tty|grep -v 'not a'|grep -Eo 'tty|pts')" ] && \
     export SW_SILENT_DL=1
 
-echo "ZHOPA $(tty)"
-
 export SW_RUNTIME="${START_WINE_PATH}/data/runtime/sw_runtime"
 
 if [ -d "${START_WINE_PATH}" ]; then
