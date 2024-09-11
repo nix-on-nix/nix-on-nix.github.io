@@ -19,8 +19,10 @@ else
     export START_WINE_PATH="$HOME/.local/share/StartWine"
 fi
 
-[ -n "$(tty|grep -v 'not a'|grep -Eo 'tty|pts')" ] && \
+if [ "$(tty|grep -v 'not a'|grep -Eo 'tty|pts')" != "" ]; then
+    echo "POPA"
     export SW_SILENT_DL=1
+fi
 
 echo "ZHOPA $(tty|grep -v 'not a'|grep -Eo 'tty|pts')"
 
