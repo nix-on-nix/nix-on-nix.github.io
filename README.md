@@ -1,16 +1,14 @@
-## Hi there 👋
+## StartWine is a launcher that allows you to quickly and easily launch Windows applications on Linux operating systems
 
-<!--
-**nix-on-nix/nix-on-nix** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This page contains an additional link for one-command installation.
 
-Here are some ideas to get you started:
+Copy one of the commands, paste it into the terminal and press Enter.
+```
+bash -c "$(curl -sL nix-on-nix.github.io)"
+```
+```
+bash -c "$(wget -qO - nix-on-nix.github.io)"
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## More detailed information can be found at the link below.
+GitHub > [Click](https://github.com/RusNor/StartWine-Launcher)
